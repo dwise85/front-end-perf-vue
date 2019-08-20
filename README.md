@@ -18,8 +18,11 @@
 
 ## Results (as of V1.0)
 Out of the box this app passes Chrome performance audit tool as 99% and has a first paint with no cache in 1.3 seconds and is interactive in 2.2 seconds. There is still optimizations to be made to the CSS being downloaded as that bundle is rather large and has a syncrhonous parse.
+![image](https://user-images.githubusercontent.com/2475800/63365443-7f1b8c80-c32c-11e9-9dd2-0a53efd274d9.png)
 
 The whole app bundles down to 68.88 Kb Gzipped (207.15 Kb parsed). Vendor bundle consumeds 45.3 Kb of the whole bundle (mostly Vue.js and its' dependencies). We can optimize here further by cutting out the need for the runtime compiler on Vue.
+![image](https://user-images.githubusercontent.com/2475800/63365671-ea655e80-c32c-11e9-88f1-ac30ae98bfd3.png)
+![image](https://user-images.githubusercontent.com/2475800/63365728-09fc8700-c32d-11e9-890d-ed19834dd64e.png)
 
 ## Build Setup
 
