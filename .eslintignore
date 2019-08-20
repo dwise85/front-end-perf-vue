@@ -1,0 +1,7 @@
+.prettierignore
+yarn.lock
+.npmrc
+
+**/dist/
+**/node_modules/
+**/generated/

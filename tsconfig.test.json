@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["**/*.spec.*", "**/*.mock.*", "**/*test.*"],
+  "compilerOptions": {
+    "strict": false,
+    "noImplicitReturns": false,
+    "strictPropertyInitialization": false
+  }
+}

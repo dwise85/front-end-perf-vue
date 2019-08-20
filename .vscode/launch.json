@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Test Localhost",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceRoot}/dist/src/rendering",
+      "sourceMaps": true,
+      "disableNetworkCache": true,
+      "showAsyncStacks": true,
+      "smartStep": true,
+      "sourceMapPathOverrides": {
+        "webpack:///./src/*": "${workspaceRoot}/src/*"
+      }
+    }
+  ]
+}
